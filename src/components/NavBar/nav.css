@@ -1,0 +1,158 @@
+/* === Navbar Wrapper === */
+.navbar-wrapper {
+    position: relative;
+}
+
+/* === Desktop Navbar === */
+.navbar {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: rgba(30, 30, 30, 0.5);
+
+    border-radius: 40px;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+    color: #3037ff;
+}
+
+.resume-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #222;
+}
+
+
+/* === Mobile Header === */
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+
+
+    margin: 20px 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.mobile-title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hamburger-fixed {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* === Sidebar === */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #111;
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #00bcd4;
+}
+
+.close-btn {
+    align-self: flex-end;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+/* === Media Query: Mobile Overrides === */
+@media (max-width: 768px) {
+
+    /* Force hide navbar just in case */
+    .navbar {
+        display: none !important;
+    }
+
+    /* Optional: reduce font size or spacing */
+    .mobile-title {
+        font-size: 16px;
+    }
+
+    .mobile-title span {
+        color: #00bcd4;
+    }
+
+    .sidebar {
+        width: 220px;
+    }
+
+    .sidebar ul li a {
+        font-size: 16px;
+    }
+}
