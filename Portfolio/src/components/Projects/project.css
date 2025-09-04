@@ -1,0 +1,228 @@
+.projects-section {
+    padding: 5rem;
+    color: white;
+}
+
+.projects-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    transform: translateY(-20px);
+}
+
+.dev-title {
+    transform: translateY(-2px);
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    font-size: 25px;
+}
+
+.project-category {
+    width: 100%;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+}
+
+.projects-container {
+    transform: translateY(-30px);
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: auto;
+}
+
+.projects-container::-webkit-scrollbar {
+    height: 2px;
+    display: none;
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+.project-card {
+    flex: 0 0 auto;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    padding: 0.5rem;
+    width: 420px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.project-card.hovered {
+    background-color: #000;
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.project-name {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+.view-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.project-desktop-name {
+    display: inline;
+}
+
+.view-link-mobile {
+    display: none;
+}
+
+.project-mobile-name {
+    display: none;
+}
+
+/* Mobile specific styles */
+.mobile-project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile-project-description {
+    font-size: 0.9rem;
+    color: #a0aec0;
+    margin-top: 0.5rem;
+    line-height: 1.4;
+    white-space: normal;
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    .mobile-project-intro {
+        font-size: 1rem;
+        color: #a0aec0;
+        text-align: center;
+        margin: 0.5rem 1rem 1.5rem 1rem;
+        line-height: 1.5;
+    }
+
+    .projects-section {
+        padding: 2rem;
+    }
+
+    .project-category {
+        display: none;
+        /* Optional: Hide the container if not needed */
+    }
+
+    .projects-title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .dev-title {
+        font-size: 1.3rem;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .project-card {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        max-width: 350px;
+        width: 100%;
+        padding: 0;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #111;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 2px solid rgba(7, 38, 244, 0.4);
+    }
+
+    .project-image {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        display: block;
+        border-radius: 0;
+        /* image touches top, left, and right */
+    }
+
+    .project-name {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .mobile-project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .project-mobile-name {
+        display: block;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .mobile-project-description {
+        font-size: 0.9rem;
+        color: #ffffff;
+        margin-top: 0.5rem;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    .view-link-mobile {
+        padding-right: 1rem;
+        display: inline-block;
+        font-size: 1.3rem;
+        text-decoration: none;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .project-desktop-name {
+        display: none;
+    }
+
+    .view-link {
+        display: none;
+    }
+}
