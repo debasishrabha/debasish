@@ -8,6 +8,21 @@ import aiImage from '../../assets/fin-app.jpg';
 
 const projects = [
     {
+        name: 'Resturant Website',
+        image: resturant,
+        liveUrl: 'https://tholua.onrender.com/',
+        description: 'It is an full stack Resturant website where user can create and login account and they also can order',
+
+    },
+
+    {
+        name: 'AI Assistant',
+        image: aiImage,
+        liveUrl: 'https://your-live-url-4.com',
+        description: 'AI-powered financial assistant with natural language processing and predictive analytics.',
+
+    },
+    {
         name: 'Weather-Application',
         image: weather,
         liveUrl: 'https://debasishrabha.github.io/Weather/',
@@ -20,20 +35,8 @@ const projects = [
         description: 'Age calculator is an simple frontend application where we can calculate our age',
 
     },
-    {
-        name: 'Resturant Website',
-        image: resturant,
-        liveUrl: 'https://tholua-1.onrender.com',
-        description: 'It is an full stack Resturant website where user can create and login account and they also can order',
 
-    },
-    {
-        name: 'AI Assistant',
-        image: aiImage,
-        liveUrl: 'https://your-live-url-4.com',
-        description: 'AI-powered financial assistant with natural language processing and predictive analytics.',
 
-    },
 ];
 
 const useIsMobile = () => {
