@@ -2,7 +2,7 @@ import htmlIcon from '../../assets/html.png';
 import cssIcon from '../../assets/css.png';
 import jsIcon from '../../assets/js.png';
 import reactIcon from '../../assets/react.png';
-import kotlinIcon from '../../assets/kotlin.png';
+import kotlinIcon from '../../assets/Kotlin.png';
 import nodejsIcon from '../../assets/nodejs.png';
 import gitIcon from '../../assets/git.png';
 import figmaIcon from '../../assets/figma.png';
