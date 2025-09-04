@@ -36,7 +36,14 @@ function HeroSection() {
                 </div>
 
                 <div className="mobile-buttons">
-                    <button className="hero-button glow">Download CV</button>
+                    <a
+                        href="/Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="hero-button glow">Resume</button>
+                    </a>
+
                     <a href='#contact' download className="hero-button secondary glow">Hire Me</a>
                 </div>
                 <div className="social-icons-container">

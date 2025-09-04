@@ -29,9 +29,14 @@ function Navbar() {
       {/* === Desktop Navbar === */}
       {!isMobile && (
         <nav className="navbar">
-          <a href="/resume.pdf" className="resume-button" download>
-            Download Resume
+          <a
+            href="/Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="hero-button glow">Download Resume</button>
           </a>
+
           <ul className="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
