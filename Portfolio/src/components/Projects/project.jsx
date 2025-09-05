@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import weather from '../../assets/weather.png';
 import resturant from '../../assets/resturant-page.jpeg';
 import ageImage from '../../assets/age-cal.jpg';
-import aiImage from '../../assets/fin-app.jpg';
+import aiImage from '../../assets/fuel_detector.png';
 
 const projects = [
     {
@@ -16,10 +16,10 @@ const projects = [
     },
 
     {
-        name: 'AI Assistant',
+        name: 'Fuel Detector Web App',
         image: aiImage,
-        liveUrl: 'https://your-live-url-4.com',
-        description: 'AI-powered financial assistant with natural language processing and predictive analytics.',
+        liveUrl: 'https://your-live-url-4.comhttps://github.com/debasishrabha/Fuel_detector',
+        description: 'Machine learning-based web app for learning purposes that predicts fuel quality (not for real-time use).',
 
     },
     {
