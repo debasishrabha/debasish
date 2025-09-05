@@ -68,7 +68,7 @@ function HeroSection() {
                     <span className="gray-text">MR.</span> DEBASISH RABHA
                 </h1>
                 <p>
-                    A 6th-semester CSE student at Jorhat Engineering College, passionate about web and app development.
+                    A 7th-semester CSE student at Jorhat Engineering College, passionate about web and app development.
                     I’m focused on sharpening my full-stack skills and building real-world solutions through code.
                 </p>
                 <button className="hire-button"><a href='#contact'>Hire Me</a></button>
