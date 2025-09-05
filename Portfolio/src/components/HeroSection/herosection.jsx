@@ -44,7 +44,7 @@ function HeroSection() {
                         <button className="hero-button glow">Download Cv</button>
                     </a>
 
-                    <a href='#contact' download className="hero-button secondary glow">Hire Me</a>
+                    <a href='#contact' className="hero-button secondary glow">Hire Me</a>
                 </div>
                 <div className="social-icons-container">
                     <SocialIcons />
