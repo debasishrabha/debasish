@@ -18,7 +18,7 @@ const projects = [
     {
         name: 'Fuel Detector Web App',
         image: aiImage,
-        liveUrl: 'https://your-live-url-4.comhttps://github.com/debasishrabha/Fuel_detector',
+        liveUrl: 'https://github.com/debasishrabha/Fuel_detector',
         description: 'Machine learning-based web app for learning purposes that predicts fuel quality (not for real-time use).',
 
     },
