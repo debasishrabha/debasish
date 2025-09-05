@@ -41,7 +41,7 @@ function HeroSection() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="hero-button glow">Resume</button>
+                        <button className="hero-button glow">Download Cv</button>
                     </a>
 
                     <a href='#contact' download className="hero-button secondary glow">Hire Me</a>

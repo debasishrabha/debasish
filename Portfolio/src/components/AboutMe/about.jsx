@@ -19,7 +19,7 @@ const AboutMe = () => {
       <div className="about-section">
         <h1 className="about-title">About Me</h1>
         <p className="about-text">
-          Hi! I'm Debasish Rabha, a 6th-semester student of Computer Science Engineering at Jorhat Engineering College. I love developing websites and mobile applications that are both efficient and user-friendly.
+          Hi! I'm Debasish Rabha, a 7th-semester student of Computer Science Engineering at Jorhat Engineering College. I love developing websites and mobile applications that are both efficient and user-friendly.
 
           I like to work on practical projects that enable me to implement what I've learned in class and learn more from beyond books. My current areas of interest are full-stack web development, app development in Kotlin, and learning new technologies that can resolve day-to-day issues.
 

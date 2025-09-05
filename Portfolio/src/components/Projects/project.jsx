@@ -11,7 +11,7 @@ const projects = [
         name: 'Resturant Website',
         image: resturant,
         liveUrl: 'https://tholua.onrender.com/',
-        description: 'It is an full stack Resturant website where user can create and login account and they also can order',
+        description: 'It is an full stack Resturant website where user can create and login account and they also can order(On going Project).',
 
     },
 
@@ -26,7 +26,7 @@ const projects = [
         name: 'Weather-Application',
         image: weather,
         liveUrl: 'https://debasishrabha.github.io/Weather/',
-        description: 'A Weather Application is frontend website where i can see temperature of different place',
+        description: 'A Weather Application is frontend website where we can see temperature of different place',
     },
     {
         name: 'Age Calculator',
